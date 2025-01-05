@@ -1,4 +1,4 @@
-package com.kirdevelopment.shoppinglist
+package com.kirdevelopment.shoppinglist.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.kirdevelopment.shoppinglist.ui.theme.ShoppingListTheme
+import com.kirdevelopment.shoppinglist.presentation.ui.theme.ShoppingListTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
