@@ -5,7 +5,7 @@ import com.kirdevelopment.shoppinglist.domain.repository.ShopListRepository
 
 class DeleteShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun deleteShopItem(shopItemId: Int) {
-        shopListRepository.deleteShopItem(shopItemId)
+    fun deleteShopItem(shopItem: ShopItem) {
+        shopListRepository.deleteShopItem(shopItem)
     }
 }
